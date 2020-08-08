@@ -1,0 +1,55 @@
+body{
+    text-align: center !important;
+}
+.navfix{
+    position: fixed;
+    width: 100%;
+}
+.heads{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+#img11{
+    width: 100%;
+}
+#img12{
+    display: none;
+    width: 100%;
+}
+@media only screen and (max-width: 450px){
+    #img11{
+        display: none;
+    }
+    #img12{
+        display: block;
+    }
+}
+#img2{
+    width: 80%;
+}
+.zindex-1{
+    z-index: 1;
+}
+p{
+    text-align: justify;
+    padding-left: inherit;
+    padding-right: inherit;
+}
+.td-p{
+    width: 85%;
+}
+.cardbx{
+    margin: 0 !important;
+    justify-content: center;
+
+}
+.footer{
+    height: 61px;
+    padding-top: 19px !important;
+    margin-top: 20px;
+}
+
+.cardh{
+    height: 202px;
+    padding-top: 55px;
+}
