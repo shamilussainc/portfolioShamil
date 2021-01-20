@@ -23,7 +23,7 @@ $("#gform").submit((e) => {
   e.preventDefault();
   $.ajax({
     url:
-      "https://script.google.com/macros/s/AKfycbyEN4eSokVSwGkj_6QPaU1xznCHny6tdCtmJQqXdKePhT2AcDG3YnA_/exec",
+      "https://script.google.com/macros/s/AKfycbzoH34glvvo9x7e6ciX23VuHUM0xsMOSxNyq-idB-f6BcAOi42EAXyrRQ/exec",
     data: $("#gform").serialize(),
     method: "post",
     success: function (response) {
