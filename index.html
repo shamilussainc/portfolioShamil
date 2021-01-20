@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>SHAMIL USSAIN C</title>
-  <link rel="icon" href="/img/IMG_20200420_173458.png" type="image/gif" sizes="16x16">
+  <link rel="icon" href="./img/IMG_20200420_173458.png" type="image/gif" sizes="16x16">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link href="./css/mdb.min.css" rel="stylesheet">
@@ -60,7 +60,7 @@
           <div class="row pt-5 mt-3">
             <div class="col-md-12 mb-3">
               <div class="intro-info-content text-center">
-                <h1 class="display-3 blue-text mb-5 wow fadeInDown" data-wow-delay="0.3s">
+                <h1 class="display-3 white-text mb-5 wow fadeInDown" data-wow-delay="0.3s">
                   SHAMIL USSAIN C
                 </h1>
               </div>
@@ -88,7 +88,8 @@
             <h3 class="my-3 font-weight-bold">
               <strong>SHAMIL USSAIN C</strong>
             </h3>
-            <h6 class="font-weight-bold teal-text mb-4">Salesforce Developer,Web Designer</h6>
+            <h6 class="font-weight-bold teal-text mb-4">Salesforce Developer,Web Designer
+            </h6>
 
             <a class="p-2 m-2 fa-lg fb-ic" onclick="window.open('https://www.linkedin.com/in/shamil-ussain-c-893282187/')">
               <i class="fab fa-linkedin grey-text"> </i>
@@ -216,7 +217,7 @@
                 <hr>
                 <p class="card-text">Use integration and business logic to push your Apex coding skills to the limit. </p>
                 <a class="link-text" onclick="window.open('https://trailhead.salesforce.com/content/learn/superbadges/superbadge_apex')">
-                  <h5>see more <i class="fas fa-chevron-right"></i></h5>
+                  <h5>See more <i class="fas fa-chevron-right"></i></h5>
                 </a>
               </div>
             </div>
@@ -237,7 +238,7 @@
                 <p class="card-text">Showcase your mastery of business process automation without writing a line of code.
                 </p>
                 <a class="link-text" onclick="window.open('https://trailhead.salesforce.com/content/learn/superbadges/superbadge_process_automation')">
-                  <h5>see more <i class="fas fa-chevron-right"></i></h5>
+                  <h5>See more <i class="fas fa-chevron-right"></i></h5>
                 </a>
               </div>
             </div>
@@ -257,7 +258,7 @@
                 <hr>
                 <p class="card-text">Flex your security muscles by locking down permissions and tracking changes.                </p>
                 <a class="link-text" onclick="window.open('https://trailhead.salesforce.com/content/learn/superbadges/superbadge_security')">
-                  <h5>Check my work <i class="fas fa-chevron-right"></i></h5>
+                  <h5>See more <i class="fas fa-chevron-right"></i></h5>
                 </a>
               </div>
             </div>
@@ -277,7 +278,7 @@
                 <hr>
                 <p class="card-text">Put your click-not-code skills to work to build an app and unlock new functionality.                </p>
                 <a class="link-text" onclick="window.open('https://trailhead.salesforce.com/content/learn/superbadges/superbadge_lightning_platform_app_builder')">
-                  <h5>Check my work <i class="fas fa-chevron-right"></i></h5>
+                  <h5>See more <i class="fas fa-chevron-right"></i></h5>
                 </a>
               </div>
             </div>
@@ -637,19 +638,19 @@
       
                         <div class="row pt-5">
                           <div class="col-md-8 col-xl-9">
-                            <form>
+                            <form id="gform" action="">
       
                               <div class="row">
                                 <div class="col-md-6">
                                   <div class="md-form">
-                                    <input type="text" id="contact-name" class="form-control">
+                                    <input type="text" name="name" id="contact-name" class="form-control">
                                     <label for="contact-name" class="">Your name</label>
                                   </div>
                                 </div>
 
                                 <div class="col-md-6">
                                   <div class="md-form">
-                                    <input type="text" id="contact-email" class="form-control">
+                                    <input type="text" id="contact-email" name="email" class="form-control">
                                     <label for="contact-email" class="">Your email</label>
                                   </div>
                                 </div>
@@ -658,7 +659,7 @@
                               <div class="row">
                                 <div class="col-md-12">
                                   <div class="md-form">
-                                    <input type="text" id="contact-Subject" class="form-control">
+                                    <input type="text" name="subject" id="contact-subject" class="form-control">
                                     <label for="contact-Subject" class="">Subject</label>
                                   </div>
                                 </div>
@@ -667,32 +668,34 @@
                               <div class="row">
                                 <div class="col-md-12">
                                   <div class="md-form">
-                                    <textarea type="text" id="contact-message" class="md-textarea form-control" rows="3"></textarea>
+                                    <textarea type="text" name="message" id="contact-message" class="md-textarea form-control" rows="3"></textarea>
                                     <label for="contact-message">Your message</label>
                                   </div>
       
                                 </div>
                               </div>
+                              <div class="text-center text-md-left my-4">
+                                <button id="submitBtn" class="btn blue-gradient">Send</button>
+                              </div>
                             </form>
-                            <div class="text-center text-md-left my-4">
-                              <a class="btn peach-gradient">Send</a>
-                            </div>
                           </div>
                           <div class="col-md-4 col-xl-3">
                             <ul class="contact-icons text-center list-unstyled">
                               <li>
-                                <i class="fas fa-map-marker fa-2x orange-text"></i>
+                                <i class="fas fa-map-marker fa-2x blue-text"></i>
                                 <p>Shamil residence, kakkur</p>
                               </li>
       
                               <li>
-                                <i class="fas fa-phone fa-2x orange-text"></i>
+                                <i class="fas fa-phone fa-2x blue-text"></i>
                                 <p>+91 9746818837</p>
                               </li>
       
                               <li>
-                                <i class="fas fa-envelope fa-2x orange-text"></i>
+                                <i class="fas fa-envelope fa-2x blue-text"></i>
                                 <p>shamilussain@gmail.com</p>
+                                <div id="yesmessage" style="display: none;" onclick="toastr.info('Message send successfully', '', {positionClass: 'md-toast-bottom-left'});"></div>
+                                <div id="nomessage" style="display: none;" onclick="toastr.error('Message sending error', '', {positionClass: 'md-toast-bottom-left'});"></div>
                               </li>
                             </ul>
                           </div>
@@ -725,6 +728,8 @@
     </div>
 
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./style/javascript/formSubmission.js"></script>
   <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="./js/popper.min.js"></script>
   <script type="text/javascript" src="./js/bootstrap.min.js"></script>
